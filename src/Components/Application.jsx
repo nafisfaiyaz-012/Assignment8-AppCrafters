@@ -4,7 +4,7 @@ import React from "react";
 const Application = ({ data }) => {
   const { title, downloads, ratingAvg, image } = data;
 
-  console.log(data);
+//   console.log(data);
 
   return (
     <div className="p-5 shadow-2xl rounded-xl space-y-4  transform transition duration-300 ease-in-out hover:scale-103">
