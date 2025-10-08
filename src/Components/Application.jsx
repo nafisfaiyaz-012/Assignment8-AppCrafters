@@ -7,7 +7,7 @@ const Application = ({ data }) => {
   console.log(data);
 
   return (
-    <div className="p-5 shadow-2xl rounded-xl space-y-4">
+    <div className="p-5 shadow-2xl rounded-xl space-y-4  transform transition duration-300 ease-in-out hover:scale-103">
       <div className="rounded-2xl overflow-hidden">
         <img className="h-[350px] w-full object-cover" src={image} alt="" />
       </div>
