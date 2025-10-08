@@ -6,13 +6,13 @@ const Navbar = () => {
   const items = (
     <>
       <li>
-        <NavLink to='/'>Home</NavLink>
+        <NavLink to='/' className='font-semibold text-md'>Home</NavLink>
       </li>
       <li>
-        <NavLink>Apps</NavLink>
+        <NavLink to='/apps' className='font-semibold text-md'>Apps</NavLink>
       </li>
       <li>
-        <NavLink>Installation</NavLink>
+        <NavLink to='/installation' className='font-semibold text-md'>Installation</NavLink>
       </li>
     </>
   );

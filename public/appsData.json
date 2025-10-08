@@ -1,0 +1,361 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Fb1DJwZX/original-cf5f89e39b6e8a8d0b3bc3768058b604.png",
+    "title": "TaskFlow — Smart To-Do",
+    "companyName": "BluePixel Labs",
+    "id": 1,
+    "description": "TaskFlow is a comprehensive productivity app designed to help users manage their daily tasks and long-term projects with ease. It features customizable task lists, priority settings, and smart reminders to ensure nothing is forgotten. Users can categorize tasks by project, deadline, or importance, making it simple to stay organized. The app also offers team collaboration tools, allowing members to share tasks, comment, and track progress in real time. Offline access ensures productivity even without an internet connection, while detailed analytics provide insights into efficiency trends. With TaskFlow, users can boost their productivity, reduce stress, and maintain focus on what truly matters, making it suitable for students, professionals, and teams alike.",
+    "size": "23.4 MB",
+    "reviews": "85.4K",
+    "ratingAvg": 4.2,
+    "downloads": "1.2M",
+    "ratings": [
+      { "name": "1 star", "count": 8200 },
+      { "name": "2 star", "count": 10400 },
+      { "name": "3 star", "count": 16300 },
+      { "name": "4 star", "count": 24200 },
+      { "name": "5 star", "count": 31300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/FLZkN0PJ/images-q-tbn-ANd9-Gc-RYG5-U9sjx-AHDLW4bo2v-Z60u5b-V0h-Fxm3j-Omw-s.png",
+    "title": "FitBuddy — Home Workout",
+    "companyName": "ActiveCore Studios",
+    "id": 2,
+    "description": "FitBuddy is an AI-powered fitness app that offers personalized workout plans for users of all levels. The app provides video demonstrations, step-by-step instructions, and progress tracking to ensure exercises are performed correctly and efficiently. Users can choose workouts based on goals, duration, or equipment availability. FitBuddy also includes nutrition tracking, reminders, and motivational challenges to keep users engaged and consistent. The app adapts over time, increasing difficulty as users improve, making it suitable for beginners and advanced athletes. Community features allow sharing achievements, participating in challenges, and connecting with others to stay motivated. Whether the goal is weight loss, strength building, or maintaining a healthy lifestyle, FitBuddy offers a comprehensive solution.",
+    "size": "45.1 MB",
+    "reviews": "112K",
+    "ratingAvg": 4.6,
+    "downloads": "2.3M",
+    "ratings": [
+      { "name": "1 star", "count": 6500 },
+      { "name": "2 star", "count": 8200 },
+      { "name": "3 star", "count": 15400 },
+      { "name": "4 star", "count": 26500 },
+      { "name": "5 star", "count": 56700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/N64qPX6D/Hyo-OOgrqj96-GEbf4bo0-Eiu-Ny-KAl-DGG7prju2pgxv-YI7-Owt-Ade-Ikn-My9-PJ1-Jym-K-Xmz-Q.png",
+    "title": "SnapNote — Scan & Organize",
+    "companyName": "VisionApp Labs",
+    "id": 3,
+    "description": "SnapNote is a document scanning and organization app that transforms physical papers into digital files. With advanced OCR technology, users can scan documents, convert them to PDF, and search for text within files. SnapNote allows organizing documents into folders, tagging important notes, and sharing securely with colleagues or friends. Automatic cloud backup ensures documents are accessible on any device, while offline mode guarantees availability without internet. The app includes features for annotation, highlighting, and adding voice notes to documents, making it ideal for students, professionals, and anyone needing to digitize information. SnapNote simplifies document management, enhances productivity, and reduces clutter, offering an efficient workflow for modern users.",
+    "size": "37.6 MB",
+    "reviews": "96.7K",
+    "ratingAvg": 4.4,
+    "downloads": "1.9M",
+    "ratings": [
+      { "name": "1 star", "count": 9400 },
+      { "name": "2 star", "count": 11400 },
+      { "name": "3 star", "count": 16300 },
+      { "name": "4 star", "count": 27300 },
+      { "name": "5 star", "count": 32000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dJ2FZD5p/614y4xnqgd-L.png",
+    "title": "BudgetBee — Expense Tracker",
+    "companyName": "MoneyNest",
+    "id": 4,
+    "description": "BudgetBee is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "28.3 MB",
+    "reviews": "78.2K",
+    "ratingAvg": 4.3,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 6200 },
+      { "name": "2 star", "count": 8700 },
+      { "name": "3 star", "count": 14300 },
+      { "name": "4 star", "count": 19800 },
+      { "name": "5 star", "count": 29000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/8nLPmRnq/medications-flat-icon-logo-web-design-high-quality-outline-symbol-medical-mobile-app-thin-line-signs.jpg",
+    "title": "MindEase — Meditation App",
+    "companyName": "CalmWave Inc.",
+    "id": 5,
+    "description": "MindEase is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "52.8 MB",
+    "reviews": "204K",
+    "ratingAvg": 4.8,
+    "downloads": "5.3M",
+    "ratings": [
+      { "name": "1 star", "count": 9400 },
+      { "name": "2 star", "count": 11300 },
+      { "name": "3 star", "count": 18200 },
+      { "name": "4 star", "count": 39400 },
+      { "name": "5 star", "count": 118000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/27P3mZH3/coding-app-icon-mobile-application-vector-35444227.jpg",
+    "title": "CodeCamp — Learn to Code",
+    "companyName": "Devverse Studios",
+    "id": 6,
+    "description": "CodeCamp is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "60.1 MB",
+    "reviews": "187K",
+    "ratingAvg": 4.7,
+    "downloads": "3.8M",
+    "ratings": [
+      { "name": "1 star", "count": 9400 },
+      { "name": "2 star", "count": 12200 },
+      { "name": "3 star", "count": 18400 },
+      { "name": "4 star", "count": 37500 },
+      { "name": "5 star", "count": 108500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bjL8T7PG/cooking-icon-image-suitable-for-mobile-apps-web-apps-and-print-media-vector.jpg",
+    "title": "CookMate — Recipe Book",
+    "companyName": "KitchenSync Ltd.",
+    "id": 7,
+    "description": "CookMate is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "48.6 MB",
+    "reviews": "91.2K",
+    "ratingAvg": 4.5,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 8200 },
+      { "name": "2 star", "count": 9700 },
+      { "name": "3 star", "count": 14200 },
+      { "name": "4 star", "count": 26300 },
+      { "name": "5 star", "count": 32200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Q7ggxY5H/original-23909ae05b7ad399e60a61467cca821f.jpg",
+    "title": "PhotoSpark — AI Editor",
+    "companyName": "PixelShift Studio",
+    "id": 8,
+    "description": "PhotoSpark is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "54.9 MB",
+    "reviews": "157K",
+    "ratingAvg": 4.6,
+    "downloads": "4.5M",
+    "ratings": [
+      { "name": "1 star", "count": 10200 },
+      { "name": "2 star", "count": 13300 },
+      { "name": "3 star", "count": 22400 },
+      { "name": "4 star", "count": 35200 },
+      { "name": "5 star", "count": 76800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DDZ6ry9p/mobile-learning-logo-design-template-vector-20726999.jpg",
+    "title": "StudySync — Flashcards",
+    "companyName": "LearnLoop",
+    "id": 9,
+    "description": "StudySync is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "33.2 MB",
+    "reviews": "62.8K",
+    "ratingAvg": 4.1,
+    "downloads": "900K",
+    "ratings": [
+      { "name": "1 star", "count": 9200 },
+      { "name": "2 star", "count": 11400 },
+      { "name": "3 star", "count": 16300 },
+      { "name": "4 star", "count": 18800 },
+      { "name": "5 star", "count": 21000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/4gZxb3dV/Meetup-logo.png",
+    "title": "MeetUpNow — Social Chat",
+    "companyName": "NovaConnect",
+    "id": 10,
+    "description": "MeetUpNow is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "42.8 MB",
+    "reviews": "301K",
+    "ratingAvg": 4.5,
+    "downloads": "9.4M",
+    "ratings": [
+      { "name": "1 star", "count": 12300 },
+      { "name": "2 star", "count": 15600 },
+      { "name": "3 star", "count": 22400 },
+      { "name": "4 star", "count": 41800 },
+      { "name": "5 star", "count": 209000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/5xJxwymK/1000-F-136292706-Gv-SLi-PPAf-YW6x-EPu1f-Cn-Sh-Galiss-Ox-RV.jpg",
+    "title": "ShopSmart — Deals & Coupons",
+    "companyName": "Saverly Apps",
+    "id": 11,
+    "description": "ShopSmart is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "38.4 MB",
+    "reviews": "143K",
+    "ratingAvg": 4.4,
+    "downloads": "3.5M",
+    "ratings": [
+      { "name": "1 star", "count": 9700 },
+      { "name": "2 star", "count": 12200 },
+      { "name": "3 star", "count": 17400 },
+      { "name": "4 star", "count": 28600 },
+      { "name": "5 star", "count": 75700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pBpk7wjQ/1200x600wa.png",
+    "title": "NoteNest — Cloud Notes",
+    "companyName": "Syncify Labs",
+    "id": 12,
+    "description": "NodeNest is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "25.9 MB",
+    "reviews": "76.5K",
+    "ratingAvg": 4.2,
+    "downloads": "1.5M",
+    "ratings": [
+      { "name": "1 star", "count": 8700 },
+      { "name": "2 star", "count": 10400 },
+      { "name": "3 star", "count": 15300 },
+      { "name": "4 star", "count": 19200 },
+      { "name": "5 star", "count": 25900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/spj7L8PS/call-food-logo-design-food-delivery-service-logo-concept-free-vector.jpg",
+    "title": "Foodiez — Order & Eat",
+    "companyName": "QuickBite Co.",
+    "id": 13,
+    "description": "Foodiez is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "67.3 MB",
+    "reviews": "419K",
+    "ratingAvg": 4.7,
+    "downloads": "12.4M",
+    "ratings": [
+      { "name": "1 star", "count": 14200 },
+      { "name": "2 star", "count": 18200 },
+      { "name": "3 star", "count": 25300 },
+      { "name": "4 star", "count": 49700 },
+      { "name": "5 star", "count": 312000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nMBKCLzj/original-b0f3c774f570ba520b07aa7c46bff1d0.jpg",
+    "title": "TravelMate — Trip Planner",
+    "companyName": "Roamify Labs",
+    "id": 14,
+    "description": "TravelMate is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "59.2 MB",
+    "reviews": "189K",
+    "ratingAvg": 4.5,
+    "downloads": "4.6M",
+    "ratings": [
+      { "name": "1 star", "count": 10400 },
+      { "name": "2 star", "count": 13600 },
+      { "name": "3 star", "count": 19400 },
+      { "name": "4 star", "count": 32500 },
+      { "name": "5 star", "count": 113000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/RkqhN2dN/original-e7b94d4c6519dfc21ec5297c1d19f243.png",
+    "companyName": "LinguaTech",
+    "id": 15,
+    "description": "Langify is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "44.6 MB",
+    "reviews": "243K",
+    "ratingAvg": 4.6,
+    "downloads": "6.2M",
+    "ratings": [
+      { "name": "1 star", "count": 9700 },
+      { "name": "2 star", "count": 13200 },
+      { "name": "3 star", "count": 20800 },
+      { "name": "4 star", "count": 42700 },
+      { "name": "5 star", "count": 158000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/fdFwnYN5/driver-using-mobile-phone-icon-2-RJJDRM.jpg",
+    "title": "DriveSafe — Navigation App",
+    "companyName": "PathSense Ltd.",
+    "id": 16,
+    "description": "DriveSafe is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "72.1 MB",
+    "reviews": "311K",
+    "ratingAvg": 4.3,
+    "downloads": "8.1M",
+    "ratings": [
+      { "name": "1 star", "count": 18700 },
+      { "name": "2 star", "count": 22800 },
+      { "name": "3 star", "count": 35200 },
+      { "name": "4 star", "count": 56200 },
+      { "name": "5 star", "count": 178000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/0y5NcJt1/original-51231848a778c76712fb617fe8467c70.jpg",
+    "title": "PetPal — Pet Care Tracker",
+    "companyName": "Pawfect Labs",
+    "id": 17,
+    "description": "PetPal is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "39.7 MB",
+    "reviews": "65.4K",
+    "ratingAvg": 4.4,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 7800 },
+      { "name": "2 star", "count": 9400 },
+      { "name": "3 star", "count": 14200 },
+      { "name": "4 star", "count": 18800 },
+      { "name": "5 star", "count": 24300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vvPSNCgh/stopwatch-timer-red-colour-78370-8122.jpg",
+    "title": "FocusZen — Pomodoro Timer",
+    "companyName": "MindfulWorks",
+    "id": 18,
+    "description": "FocusZen is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "26.5 MB",
+    "reviews": "89.7K",
+    "ratingAvg": 4.3,
+    "downloads": "2.4M",
+    "ratings": [
+      { "name": "1 star", "count": 9700 },
+      { "name": "2 star", "count": 11200 },
+      { "name": "3 star", "count": 18400 },
+      { "name": "4 star", "count": 25300 },
+      { "name": "5 star", "count": 34100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KjcGTxBF/qtn6c-z9a-V9fh0-YW5miu-Gtr-JQKLZynie-WZFVRGdg2nu-POtw-HAWH9-emqx-Ky-M1r-Um-Q-w240-h480-rw.webp",
+    "title": "CryptoPulse — Portfolio Tracker",
+    "companyName": "BlockSync",
+    "id": 19,
+    "description": "CryptoPulse is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "41.8 MB",
+    "reviews": "123K",
+    "ratingAvg": 4.2,
+    "downloads": "3.9M",
+    "ratings": [
+      { "name": "1 star", "count": 13200 },
+      { "name": "2 star", "count": 15400 },
+      { "name": "3 star", "count": 20800 },
+      { "name": "4 star", "count": 28600 },
+      { "name": "5 star", "count": 45600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/tPPXhw29/premium-photo-1720556257936-ad926af24f31-fm-jpg-q-60-w-3000-ixlib-rb-4-1.jpg",
+    "title": "TuneWave — Music Player",
+    "companyName": "AudioNest",
+    "id": 20,
+    "description": "TuneWave is a powerful personal finance app that allows users to track income, expenses, and savings in real-time. Users can categorize spending, set monthly budgets, and receive notifications when nearing limits. The app generates detailed reports and visualizations to help understand spending patterns, plan future budgets, and achieve financial goals. BudgetBee supports multiple currencies, recurring transactions, and secure cloud sync across devices. Additional features include bill reminders, goal tracking, and analytics for informed decision-making. Ideal for individuals, families, and small businesses, BudgetBee helps users gain control over finances, reduce unnecessary spending, and plan a stable financial future efficiently.",
+    "size": "58.4 MB",
+    "reviews": "278K",
+    "ratingAvg": 4.7,
+    "downloads": "7.6M",
+    "ratings": [
+      { "name": "1 star", "count": 11200 },
+      { "name": "2 star", "count": 15400 },
+      { "name": "3 star", "count": 24300 },
+      { "name": "4 star", "count": 42500 },
+      { "name": "5 star", "count": 184000 }
+    ]
+  }
+]
