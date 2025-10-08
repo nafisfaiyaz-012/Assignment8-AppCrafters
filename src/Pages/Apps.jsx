@@ -18,7 +18,7 @@ const Apps = () => {
   //   console.log(searchedProducts);
 
   return (
-    <div className="mt-10">
+    <div className="pt-10 bg-gray-100">
       <div className="text-center space-y-3">
         <p className="text-4xl font-semibold">Our All Applications</p>
         <p className="text-lg text-gray-400">
@@ -61,7 +61,7 @@ const Apps = () => {
           <NoSearchAppFound></NoSearchAppFound>
         ) : (
           <div className="mt-5">
-            <div className="grid grid-cols-4 gap-10 mt-5 mb-10">
+            <div className="grid grid-cols-4 gap-10 mt-5 pb-10">
               {searchedProducts.map((data) => (
                 <Application key={data.id} data={data}></Application>
               ))}
