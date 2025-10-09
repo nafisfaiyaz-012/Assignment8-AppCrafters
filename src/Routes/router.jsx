@@ -4,9 +4,10 @@ import { Component } from "react";
 import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
-import NoAppFound from "../Components/NoSearchAppFound";
+
 import AppDetails from "../Pages/AppDetails";
 import Error404 from "../Pages/Error404";
+import NoAppFound from "../Pages/NoAppFound";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,7 @@ const router = createBrowserRouter([
     Component: Root,
     children: [
       {
-        index: "/",
+        index: true,
         Component: Home,
       },
       {
@@ -26,13 +27,22 @@ const router = createBrowserRouter([
         Component: Installation,
       },
       {
-        path:'/appdetails/:id',
-        Component: AppDetails
+        path: "/appdetails/:id",
+        children: [
+          {
+            index: true,
+            Component: AppDetails,
+          },
+          {
+            path: "*",
+            Component: NoAppFound,
+          },
+        ],
       },
       {
-        path:'*',
-        Component: Error404
-      }
+        path: "*",
+        Component: Error404,
+      },
     ],
   },
 ]);
