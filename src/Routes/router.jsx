@@ -6,6 +6,7 @@ import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import NoAppFound from "../Components/NoSearchAppFound";
 import AppDetails from "../Pages/AppDetails";
+import Error404 from "../Pages/Error404";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path:'/appdetails/:id',
         Component: AppDetails
+      },
+      {
+        path:'*',
+        Component: Error404
       }
     ],
   },
