@@ -1,18 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import useAppdata from "../Hooks/useAppData";
 import LoadingSpinner from "./LoadingSpinner";
 import { CircleCheckBig, Download, Star, ThumbsUp } from "lucide-react";
 import SingleDataBarChart from "../Components/SingleDataBarChart";
 import { toast, ToastContainer } from "react-toastify";
-import { setDataToLS } from "../Utilities/LocalStorageFunctionality";
+import {
+  getDataFromLS,
+  setDataToLS,
+} from "../Utilities/LocalStorageFunctionality";
 
 const AppDetails = () => {
   const [disable, setDisable] = useState(false);
   const { data } = useAppdata();
   const { id } = useParams();
   const singleAppData = data.find((el) => el.id === Number(id));
-
+  useEffect(() => {
+    const installedApps = getDataFromLS(); // returns array of installed ids
+    if (installedApps.includes(Number(id))) {
+      setDisable(true);
+    }
+  }, [id]);
   //loading spinner for empty array
   if (!singleAppData) {
     return (
@@ -36,7 +44,7 @@ const AppDetails = () => {
   const handleInstall = () => {
     setDisable(true);
     toast("Apps installed successfully!");
-    setDataToLS(id)
+    setDataToLS(id);
   };
   return (
     <div className="bg-gray-100 min-h-[calc(100vh-246px)]">

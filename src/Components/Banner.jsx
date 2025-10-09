@@ -1,16 +1,20 @@
 import React from "react";
 import bannerImg from "../assets/hero.png";
 import GooglePlayImg from "../assets/GooglePlay.png";
-import AppleStoreImg from '../assets/AppleStore.png'
+import AppleStoreImg from "../assets/AppleStore.png";
 import { Link } from "react-router";
 const Banner = () => {
   return (
     <div className="">
       <div className="flex flex-col justify-center items-center  space-y-8 w-fit mx-auto">
         <div className="space-y-7 mt-5">
-          <div>
+          <div className="space-y-6">
             <h1 className="text-center text-5xl font-semibold">
-              We Build <br /> Productive Apps
+              We Build <br />{" "}
+              <span className="bg-linear-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">
+                Productive
+              </span>{" "}
+              Apps
             </h1>
             <p>
               At AppCrafters , we craft innovative apps designed to make
@@ -24,13 +28,12 @@ const Banner = () => {
               to="https://play.google.com/store/games?device=windows"
               className="btn p-2"
             >
-              <img className="h-[25px]" src={GooglePlayImg} alt="" /> Google Play
+              <img className="h-[25px]" src={GooglePlayImg} alt="" /> Google
+              Play
             </Link>
-            <Link
-              to="https://www.apple.com/app-store/"
-              className="btn p-2"
-            >
-              <img className="h-[25px]" src={AppleStoreImg} alt="" /> Apple Store
+            <Link to="https://www.apple.com/app-store/" className="btn p-2">
+              <img className="h-[25px]" src={AppleStoreImg} alt="" /> Apple
+              Store
             </Link>
           </div>
         </div>
