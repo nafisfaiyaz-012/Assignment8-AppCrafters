@@ -16,7 +16,7 @@ const AppDetails = () => {
   //loading spinner for empty array
   if (!singleAppData) {
     return (
-      <div className="w-fit mx-auto mt-100 bg-gray-100">
+      <div className="w-fit mx-auto mt-100 bg-gray-100 min-h-[calc(100vh-246px)]">
         <LoadingSpinner></LoadingSpinner>
       </div>
     );
@@ -39,7 +39,7 @@ const AppDetails = () => {
     setDataToLS(id)
   };
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 min-h-[calc(100vh-246px)]">
       <div className="p-10">
         <div className="flex gap-10 border-b border-gray-400 pb-10">
           <div>

@@ -53,7 +53,7 @@ const Installation = () => {
     }
   };
   return (
-    <div className="bg-gray-100 p-5">
+    <div className="bg-gray-100 p-5 min-h-[calc(100vh-246px)]">
       <div className="text-center py-15 space-y-4">
         <p className="font-semibold text-3xl">Your Installed Apps</p>
         <p className="text-gray-400">
