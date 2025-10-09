@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router";
 import useAppdata from "../Hooks/useAppData";
 import LoadingSpinner from "./LoadingSpinner";
-import { Download, Star, ThumbsUp } from "lucide-react";
+import { CircleCheckBig, Download, Star, ThumbsUp } from "lucide-react";
 import SingleDataBarChart from "../Components/SingleDataBarChart";
+import { toast, ToastContainer } from "react-toastify";
+import { setDataToLS } from "../Utilities/LocalStorageFunctionality";
 
 const AppDetails = () => {
+  const [disable, setDisable] = useState(false);
   const { data } = useAppdata();
   const { id } = useParams();
   const singleAppData = data.find((el) => el.id === Number(id));
@@ -28,8 +31,13 @@ const AppDetails = () => {
     size,
     description,
   } = singleAppData;
-//   console.log(singleAppData);
+  //   console.log(singleAppData);
 
+  const handleInstall = () => {
+    setDisable(true);
+    toast("Apps installed successfully!");
+    setDataToLS(id)
+  };
   return (
     <div className="bg-gray-100">
       <div className="p-10">
@@ -71,22 +79,40 @@ const AppDetails = () => {
               </div>
             </div>
             <div>
-              <button className="btn bg-[#00d390] text-white px-3 py-1 rounded-xl">
-                Install Now ({size})
+              <button
+                onClick={() => handleInstall()}
+                disabled={disable}
+                className="btn bg-[#00d390] text-white px-3 py-1 rounded-xl"
+              >
+                {disable ? (
+                  <div className="flex gap-2">
+                    <p>Installed</p>
+                    <p>
+                      <CircleCheckBig />
+                    </p>
+                  </div>
+                ) : (
+                  <p>Install Now ({size})</p>
+                )}
               </button>
             </div>
           </div>
         </div>
       </div>
+
+      {/* chart & description */}
       <div className="px-10">
         <div className="border-b border-gray-400 pb-10">
-          <SingleDataBarChart singleAppData={singleAppData}></SingleDataBarChart>
+          <SingleDataBarChart
+            singleAppData={singleAppData}
+          ></SingleDataBarChart>
         </div>
 
         <div className="py-10">
           <p>{description}</p>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
