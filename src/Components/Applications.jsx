@@ -11,9 +11,9 @@ const Applications = () => {
 
   return (
     <div className="w-11/12 mx-auto pb-10">
-      <div className="text-center mt-5 space-y-4">
-        <h1 className="text-5xl font-semibold">Trending Apps</h1>
-        <p className="text-lg text-gray-400">
+      <div className="text-center mt-15 space-y-4">
+        <h1 className="text-5xl font-semibold mb-7">Trending Apps</h1>
+        <p className="text-lg text-gray-400 mb-10">
           Explore All Trending Apps on the Market developed by us
         </p>
       </div>

@@ -14,7 +14,7 @@ const SingleDataBarChart = ({ singleAppData }) => {
   const { ratings } = singleAppData;
 
   return (
-    <div className="h-[400px]">
+    <div className="h-[400px] border-2 p-2">
       <ResponsiveContainer width="100%" height="100%">
         <ComposedChart
           layout="vertical"
@@ -29,8 +29,8 @@ const SingleDataBarChart = ({ singleAppData }) => {
           }}
         >
           <CartesianGrid stroke="#f5f55" />
-          <XAxis type="number" axisLine={false} tickLine={false} />
-          <YAxis type="category" dataKey="name" axisLine={false} tickLine={false} />
+          <XAxis type="number"   />
+          <YAxis reversed type="category" dataKey="name"  />
           <Tooltip />
 
           <Bar dataKey="count" barSize={20} fill="#ff8811" />

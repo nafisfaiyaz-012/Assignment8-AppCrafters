@@ -2,6 +2,7 @@ import { getDataFromLS } from "../Utilities/LocalStorageFunctionality";
 import useAppdata from "../Hooks/useAppData";
 import InstalledApps from "../Components/InstalledApps";
 import { useEffect, useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
 /* 
    const [LS, setLS] = useState([]);
   const [filter, setFilter] = useState([]);
@@ -37,17 +38,18 @@ const Installation = () => {
     // console.log(dataAfterDelete);
     const updatedFilter = filter.filter((data) => data.id !== id);
     setFilter([...updatedFilter]);
+    toast('Apps Uninstalled.');
   };
 
   const handleSort = (str) => {
     if (str === "asc") {
       const asc = filter.sort(
-        (a, b) => parseFloat(a.size) - parseFloat(b.size)
+        (a, b) => parseFloat(a.downloads) - parseFloat(b.downloads)
       );
       setFilter([...asc]);
     } else if (str === "desc") {
       const desc = filter.sort(
-        (a, b) => parseFloat(b.size) - parseFloat(a.size)
+        (a, b) => parseFloat(b.downloads) - parseFloat(a.downloads)
       );
       setFilter([...desc]);
     }
@@ -65,7 +67,7 @@ const Installation = () => {
         <p className="text-lg font-semibold">({filter.length}) App Found</p>
         {/* dropdown */}
         <select defaultValue="Sort By Size" className="select">
-          <option>Sort by Size</option>
+          <option>Sort by Downloads</option>
           <option onClick={() => handleSort("desc")}>High to Low</option>
           <option
             onClick={() => {
@@ -86,6 +88,7 @@ const Installation = () => {
           ></InstalledApps>
         ))}
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };

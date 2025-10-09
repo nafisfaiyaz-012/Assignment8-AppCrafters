@@ -9,6 +9,7 @@ import {
   getDataFromLS,
   setDataToLS,
 } from "../Utilities/LocalStorageFunctionality";
+import NoAppFound from "./NoAppFound";
 
 const AppDetails = () => {
   const [disable, setDisable] = useState(false);
@@ -24,9 +25,7 @@ const AppDetails = () => {
   //loading spinner for empty array
   if (!singleAppData) {
     return (
-      <div className="w-fit mx-auto mt-100 bg-gray-100 min-h-[calc(100vh-246px)]">
-        <LoadingSpinner></LoadingSpinner>
-      </div>
+      <NoAppFound></NoAppFound>
     );
   }
   const {
@@ -73,7 +72,7 @@ const AppDetails = () => {
               </div>
               <div className="space-y-1">
                 <p className="text-[#FF8811]">
-                  <Star />
+                  <Star color="#FF8811" fill="#FF8811" />
                 </p>
                 <p>Average Ratings</p>
                 <p className="font-bold text-xl">{ratingAvg}</p>
@@ -117,6 +116,7 @@ const AppDetails = () => {
         </div>
 
         <div className="py-10">
+          <h1 className="text-2xl font-semibold my-5">Description</h1>
           <p>{description}</p>
         </div>
       </div>

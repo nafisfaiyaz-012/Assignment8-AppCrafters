@@ -1,12 +1,8 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
 
-
-
-const InstalledApps = ({ data ,handleDelete}) => {
+const InstalledApps = ({ data, handleDelete }) => {
   const { image, title, downloads, ratingAvg, size, id } = data;
-
-  
 
   return (
     <div className="flex justify-between items-center bg-white my-5 rounded-2xl">
@@ -28,7 +24,7 @@ const InstalledApps = ({ data ,handleDelete}) => {
               <p>{downloads}</p>
             </div>
             <div className="flex gap-1 text-[#FF8811]">
-              <Star />
+              <Star color="#FF8811" fill="#FF8811" />
               <p>{ratingAvg}</p>
             </div>
             <p>{size}</p>
@@ -37,7 +33,7 @@ const InstalledApps = ({ data ,handleDelete}) => {
       </div>
       <div onClick={() => handleDelete(id)} className="mr-15">
         <button className="btn bg-[#00d390] text-white px-3 py-1 rounded-xl">
-          <p>Delete</p>
+          <p>Uninstall</p>
         </button>
       </div>
     </div>

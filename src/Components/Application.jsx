@@ -22,7 +22,7 @@ const Application = ({ data }) => {
               <p>{downloads}</p>
             </div>
             <div className="flex gap-3 justify-between items-center text-[#FF8811] px-3 py-1 rounded-lg bg-[#FFF0E1]">
-              <Star />
+              <Star color="#FF8811" fill="#FF8811" />
               <p>{ratingAvg}</p>
             </div>
           </div>
