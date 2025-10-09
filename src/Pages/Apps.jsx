@@ -2,10 +2,11 @@ import React, { useState } from "react";
 import useAppdata from "../Hooks/useAppData";
 import Application from "../Components/Application";
 import NoSearchAppFound from "../Components/NoSearchAppFound";
+import SkeletonLoader from "../Components/SkeletonLoader";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
-  const { data } = useAppdata();
+  const { data, loading } = useAppdata();
   //   console.log(data);
 
   const searchTerm = search.replace(/\s+/g, "").toLocaleLowerCase();
@@ -56,19 +57,25 @@ const Apps = () => {
         </label>
       </div>
 
-      <div>
-        {searchedProducts.length === 0 ? (
-          <NoSearchAppFound></NoSearchAppFound>
-        ) : (
-          <div className="mt-5">
-            <div className="grid grid-cols-4 gap-10 mt-5 pb-10">
-              {searchedProducts.map((data) => (
-                <Application key={data.id} data={data}></Application>
-              ))}
-            </div>
+      {loading ? (
+        <SkeletonLoader count='20'></SkeletonLoader>
+      ) : (
+        <>
+          <div>
+            {searchedProducts.length === 0 ? (
+              <NoSearchAppFound></NoSearchAppFound>
+            ) : (
+              <div className="mt-5">
+                <div className="grid grid-cols-4 gap-10 mt-5 pb-10">
+                  {searchedProducts.map((data) => (
+                    <Application key={data.id} data={data}></Application>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
-        )}
-      </div>
+        </>
+      )}
     </div>
   );
 };
