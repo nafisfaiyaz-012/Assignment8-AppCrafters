@@ -27,8 +27,31 @@ const Installation = () => {
     const filteredData = data.filter((data) => dataFromLS.includes(data.id));
     setFilter([...filteredData]);
 
-    console.log(filteredData);
+    // console.log(filteredData);
   }, [data]);
+
+  const handleDelete = (id) => {
+    const dataFromLS = getDataFromLS();
+    const dataAfterDelete = dataFromLS.filter((num) => num !== Number(id));
+    localStorage.setItem("apps", JSON.stringify(dataAfterDelete));
+    // console.log(dataAfterDelete);
+    const updatedFilter = filter.filter((data) => data.id !== id);
+    setFilter([...updatedFilter]);
+  };
+
+  const handleSort = (str) => {
+    if (str === "asc") {
+      const asc = filter.sort(
+        (a, b) => parseFloat(a.size) - parseFloat(b.size)
+      );
+      setFilter([...asc]);
+    } else if (str === "desc") {
+      const desc = filter.sort(
+        (a, b) => parseFloat(b.size) - parseFloat(a.size)
+      );
+      setFilter([...desc]);
+    }
+  };
   return (
     <div className="bg-gray-100 p-5">
       <div className="text-center py-15 space-y-4">
@@ -39,13 +62,28 @@ const Installation = () => {
       </div>
 
       <div className="flex justify-between items-center">
-        <p className="text-lg font-semibold">1 Apps Found</p>
-        <p>sort</p>
+        <p className="text-lg font-semibold">({filter.length}) App Found</p>
+        {/* dropdown */}
+        <select defaultValue="Sort By Size" className="select">
+          <option>Sort by Size</option>
+          <option onClick={() => handleSort("desc")}>High to Low</option>
+          <option
+            onClick={() => {
+              handleSort("asc");
+            }}
+          >
+            Low to High
+          </option>
+        </select>
       </div>
 
       <div className="">
         {filter.map((data) => (
-          <InstalledApps  key={data.id} data={data}></InstalledApps>
+          <InstalledApps
+            handleDelete={handleDelete}
+            key={data.id}
+            data={data}
+          ></InstalledApps>
         ))}
       </div>
     </div>

@@ -1,18 +1,13 @@
 import { Download, Star } from "lucide-react";
 import React from "react";
-import { getDataFromLS } from "../Utilities/LocalStorageFunctionality";
 
 
-const InstalledApps = ({ data }) => {
+
+const InstalledApps = ({ data ,handleDelete}) => {
   const { image, title, downloads, ratingAvg, size, id } = data;
 
-  const handleDelete = (id) => {
-    const dataFromLS = getDataFromLS();
-    const dataAfterDelete = dataFromLS.filter((num) => num !== Number(id));
-    localStorage.setItem("apps", JSON.stringify(dataAfterDelete));
-    // console.log(dataAfterDelete);
-  };
   
+
   return (
     <div className="flex justify-between items-center bg-white my-5 rounded-2xl">
       <div className="flex gap-5 p-5">
