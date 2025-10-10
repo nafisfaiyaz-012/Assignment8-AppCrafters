@@ -13,7 +13,7 @@ import NoAppFound from "./NoAppFound";
 
 const AppDetails = () => {
   const [disable, setDisable] = useState(false);
-  const { data } = useAppdata();
+  const { data,loading } = useAppdata();
   const { id } = useParams();
   const singleAppData = data.find((el) => el.id === Number(id));
   useEffect(() => {
@@ -22,7 +22,9 @@ const AppDetails = () => {
       setDisable(true);
     }
   }, [id]);
-  
+  if(loading){
+    return <LoadingSpinner></LoadingSpinner>
+  }
   if (!singleAppData) {
     return (
       <NoAppFound></NoAppFound>
