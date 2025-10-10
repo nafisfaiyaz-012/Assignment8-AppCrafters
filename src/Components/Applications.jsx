@@ -3,14 +3,17 @@ import useAppdata from "../Hooks/useAppData";
 import Application from "./Application";
 import { Link } from "react-router";
 import SkeletonLoader from "./SkeletonLoader";
+import LoadingSpinner from "../Pages/LoadingSpinner";
 
 const Applications = () => {
   const { data, loading } = useAppdata();
   const limitedDataForHome = data.slice(0, 8);
   // console.log(data);
-
+  if(loading){
+    return <LoadingSpinner></LoadingSpinner>
+  }
   return (
-    <div className="w-11/12 mx-auto pb-10">
+    <div className="mx-auto pb-10">
       <div className="text-center mt-15 space-y-4">
         <h1 className="text-5xl font-semibold mb-7">Trending Apps</h1>
         <p className="text-lg text-gray-400 mb-10">
@@ -18,7 +21,7 @@ const Applications = () => {
         </p>
       </div>
       {loading ? (
-        <SkeletonLoader count='8'></SkeletonLoader>
+        <SkeletonLoader count="8"></SkeletonLoader>
       ) : (
         <>
           <div className="grid grid-cols-4 gap-10 my-5">

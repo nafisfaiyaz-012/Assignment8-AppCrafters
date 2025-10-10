@@ -1,23 +1,39 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import useAppdata from "../Hooks/useAppData";
 import Application from "../Components/Application";
 import NoSearchAppFound from "../Components/NoSearchAppFound";
 import SkeletonLoader from "../Components/SkeletonLoader";
+import LoadingSpinner from "./LoadingSpinner";
 
 const Apps = () => {
   const [search, setSearch] = useState("");
   const { data, loading } = useAppdata();
-  //   console.log(data);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchedProducts, setSearchedProducts] = useState([]);
 
-  const searchTerm = search.replace(/\s+/g, "").toLocaleLowerCase();
+  useEffect(() => {
+    if (!data.length) return;
 
-  const searchedProducts = search
-    ? data.filter((data) =>
-        data.title?.replace(/\s+/g, "").toLocaleLowerCase().includes(searchTerm)
-      )
-    : data;
-  //   console.log(searchedProducts);
+    setSearchLoading(true);
 
+    const timer = setTimeout(() => {
+      const searchTerm = search.replace(/\s+/g, "").toLowerCase();
+
+      const filtered = search
+        ? data.filter((item) =>
+            item.title?.replace(/\s+/g, "").toLowerCase().includes(searchTerm)
+          )
+        : data;
+
+      setSearchedProducts(filtered);
+      setSearchLoading(false);
+    }, 400);
+
+    return () => clearTimeout(timer);
+  }, [search, data]);
+  if (loading) {
+    return <LoadingSpinner></LoadingSpinner>;
+  }
   return (
     <div className="pt-10 bg-gray-100">
       <div className="text-center space-y-3">
@@ -57,23 +73,29 @@ const Apps = () => {
         </label>
       </div>
 
-      {loading ? (
-        <SkeletonLoader count='20'></SkeletonLoader>
+      {searchLoading ? (
+        <LoadingSpinner></LoadingSpinner>
       ) : (
         <>
-          <div>
-            {searchedProducts.length === 0 ? (
-              <NoSearchAppFound></NoSearchAppFound>
-            ) : (
-              <div className="mt-5">
-                <div className="grid grid-cols-4 gap-10 mt-5 pb-10">
-                  {searchedProducts.map((data) => (
-                    <Application key={data.id} data={data}></Application>
-                  ))}
-                </div>
+          {loading ? (
+            <SkeletonLoader count="20"></SkeletonLoader>
+          ) : (
+            <>
+              <div>
+                {searchedProducts.length === 0 ? (
+                  <NoSearchAppFound></NoSearchAppFound>
+                ) : (
+                  <div className="mt-5">
+                    <div className="grid grid-cols-4 gap-10 mt-5 pb-10">
+                      {searchedProducts.map((data) => (
+                        <Application key={data.id} data={data}></Application>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
-            )}
-          </div>
+            </>
+          )}
         </>
       )}
     </div>

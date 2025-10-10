@@ -17,12 +17,12 @@ const AppDetails = () => {
   const { id } = useParams();
   const singleAppData = data.find((el) => el.id === Number(id));
   useEffect(() => {
-    const installedApps = getDataFromLS(); // returns array of installed ids
+    const installedApps = getDataFromLS();
     if (installedApps.includes(Number(id))) {
       setDisable(true);
     }
   }, [id]);
-  //loading spinner for empty array
+  
   if (!singleAppData) {
     return (
       <NoAppFound></NoAppFound>

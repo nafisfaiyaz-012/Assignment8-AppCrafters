@@ -3,6 +3,7 @@ import useAppdata from "../Hooks/useAppData";
 import InstalledApps from "../Components/InstalledApps";
 import { useEffect, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
+import LoadingSpinner from "./LoadingSpinner";
 /* 
    const [LS, setLS] = useState([]);
   const [filter, setFilter] = useState([]);
@@ -20,8 +21,7 @@ import { toast, ToastContainer } from "react-toastify";
 const Installation = () => {
   // console.log(filteredData);
   const [filter, setFilter] = useState([]);
-  const { data } = useAppdata();
-
+  const { data, loading } = useAppdata();
   useEffect(() => {
     const dataFromLS = getDataFromLS();
 
@@ -30,7 +30,9 @@ const Installation = () => {
 
     // console.log(filteredData);
   }, [data]);
-
+  if (loading) {
+    return <LoadingSpinner></LoadingSpinner>;
+  }
   const handleDelete = (id) => {
     const dataFromLS = getDataFromLS();
     const dataAfterDelete = dataFromLS.filter((num) => num !== Number(id));
@@ -38,7 +40,7 @@ const Installation = () => {
     // console.log(dataAfterDelete);
     const updatedFilter = filter.filter((data) => data.id !== id);
     setFilter([...updatedFilter]);
-    toast('Apps Uninstalled.');
+    toast("Apps Uninstalled.");
   };
 
   const handleSort = (str) => {
